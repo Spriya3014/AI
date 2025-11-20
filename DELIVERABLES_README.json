@@ -1,0 +1,18 @@
+{
+  "deliverables": [
+    "xgb_model.json",
+    "xgb_model.pkl",
+    "shap_feature_importance.csv",
+    "global_shap_report.txt",
+    "shap_summary_bar.png",
+    "shap_waterfall_high_conf_positive.png (or shap_summary_single_... if waterfall not available)",
+    "shap_waterfall_high_conf_negative.png",
+    "shap_waterfall_low_confidence.png",
+    "lime_explanation_high_conf_positive.csv",
+    "lime_explanation_high_conf_negative.csv",
+    "lime_explanation_low_confidence.csv",
+    "shap_lime_comparison.txt",
+    "final_summary_nontechnical.txt"
+  ],
+  "notes": "These files are saved in the /content/task_outputs folder. Use GitGist to upload code and include these text files for your submission; include visuals (PNG) and CSVs as evidence."
+}

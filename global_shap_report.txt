@@ -1,0 +1,13 @@
+Global Feature Importance (SHAP) - Report
+
+Dataset: Breast Cancer (sklearn)
+Model: XGBoost (saved in outputs)
+Test accuracy: 0.9561
+
+Top 5 features by mean(|SHAP|):
+worst perimeter, worst concave points, worst texture, worst area, area error
+
+Interpretation:
+The SHAP analysis shows that the model relies primarily on the following features (top-5): worst perimeter, worst concave points, worst texture, worst area, area error.
+These features correspond to tumor size and shape measurements. Higher values of the top size-related features generally increase the model's predicted probability for the positive class (malignant),
+while lower values push predictions toward the negative class (benign). Dependence plots can be inspected to check for monotonicity and interactions. See shap_feature_importance.csv for precise values.

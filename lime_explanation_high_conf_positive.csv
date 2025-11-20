@@ -1,0 +1,13 @@
+feature_and_range,contribution
+worst texture <= 21.09,0.1953569068254128
+worst concave points <= 0.06,0.1518249246887587
+worst perimeter <= 83.72,0.13077438780745232
+worst area <= 513.90,0.12860012795127507
+area error <= 17.73,0.11403843559895413
+mean smoothness <= 0.09,0.08184528576998518
+worst radius <= 13.01,0.0797525380783498
+worst smoothness <= 0.12,0.06719542663091793
+mean concave points <= 0.02,0.06197946494473735
+worst concavity <= 0.11,0.06195233883918715
+compactness error <= 0.01,-0.055895196777291566
+worst symmetry <= 0.25,0.05412616157977829

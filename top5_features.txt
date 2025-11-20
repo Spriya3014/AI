@@ -1,0 +1,5 @@
+worst perimeter
+worst concave points
+worst texture
+worst area
+area error

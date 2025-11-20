@@ -1,0 +1,3 @@
+Final Summary (Non-Technical)
+
+We examined an XGBoost model trained to distinguish malignant from benign breast tumors using tumor measurements. SHAP global analysis shows the model primarily relies on worst perimeter, worst concave points, worst texture, worst area, area error. For high-risk predictions, larger values of these size/shape features increase predicted risk; for low-risk, smaller values reduce risk. SHAP and LIME produce broadly similar top features, though SHAP's attributions are more consistent across samples while LIME's are more sensitive to local sampling. Exercise caution for borderline predictions where the methods may disagree. 
